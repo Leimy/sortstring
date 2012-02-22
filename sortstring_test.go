@@ -23,10 +23,10 @@ func TestReverse2(t *testing.T) {
 }
 
 func TestBasicNextPermTest(t *testing.T) {
- 	a := NewSortString("abcdef")
- 	if !a.NextPermutation(0, a.Len()) {
- 		t.Errorf("NextPermutation should have returned true! : %s\n", a)
- 	}
+	a := NewSortString("abcdef")
+	if !a.NextPermutation(0, a.Len()) {
+		t.Errorf("NextPermutation should have returned true! : %s\n", a)
+	}
 }
 
 func TestSortStringPerms(t *testing.T) {
