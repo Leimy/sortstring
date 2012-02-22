@@ -1,4 +1,6 @@
 * sortstring
 ** Description
+	Sorted string interface for the Go programming language
 ** Usage
+	See test file :-)
 
